@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "test project",
     "type": "project",
-    "license": "free",
+    "license": "AAL",
     "autoload": {
         "psr-4": {
             "Tsnmedia\\Modules\\": ""
