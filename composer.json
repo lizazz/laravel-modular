@@ -1,0 +1,20 @@
+{
+    "name": "tsnmedia/test",
+    "version": "1.0.0",
+    "description": "test project",
+    "type": "project",
+    "license": "free",
+    "autoload": {
+        "psr-4": {
+            "Tsnmedia\\Modules\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "lizazz",
+            "email": "viacheslav.petrechenko@resqdev.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
