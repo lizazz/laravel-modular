@@ -22,12 +22,11 @@ class ModulesServiceProvider extends ServiceProvider
             __DIR__ . '/config' => base_path('config'),
         ]);
         $modules = config('module.modules');
-        $dir = app_path() . '/Modules';
+        $dir = base_path('vendor/tsnmedia/test');
         if($modules) {
             foreach ($modules as $module) {
 
                 //подключаем роуты для модуля
-
                 if(file_exists($dir . '/' . $module .'/Routes/routes.php')) {
                     $this->loadRoutesFrom($dir . '/' . $module . '/Routes/routes.php');
                 }
