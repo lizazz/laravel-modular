@@ -7,7 +7,7 @@
  */
 
 
-Route::group(['namespace' => 'Tsnmedia\Modules\Test\Controllers',
+Route::group(['namespace' => 'Tsnmedia\test\Test\Controllers',
         'as' => 'test.',
     ],
     function ()

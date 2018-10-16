@@ -6,7 +6,7 @@
  * Time: 13:42
  */
 
-namespace TsnMedia\Modules\Test\Controllers;
+namespace TsnMedia\test\Test\Controllers;
 use App\Http\Controllers\Controller;
 
 
