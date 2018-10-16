@@ -6,7 +6,7 @@
  * Time: 13:12
  */
 
-namespace Tsnmedia\Modules;
+namespace Tsnmedia\Test;
 
 
 use Illuminate\Support\ServiceProvider;

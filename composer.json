@@ -6,7 +6,7 @@
     "license": "AAL",
     "autoload": {
         "psr-4": {
-            "Tsnmedia\\modules\\": ""
+            "Tsnmedia\\test\\": ""
         }
     },
     "authors": [
